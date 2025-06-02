@@ -1,0 +1,30 @@
+.intro__wrapper {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--extra-color);
+
+}
+
+.intro__title {
+    font-size: 36px;
+}
+
+.intro__subtitle {
+    font-size: 30px;
+    font-family: var(--font-family-secondary), sans-serif;
+}
+
+.intro__paragraph {
+    margin-top: 100px;
+
+    font-size: 72px;
+}
+
+.intro__icon {
+    margin-top: 50px;
+    font-size: 42px;
+}

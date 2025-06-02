@@ -1,0 +1,48 @@
+.timeline__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.timeline__wrapper__block {
+    display: flex;
+
+    & > * {
+        width: 50%;
+    }
+
+    margin-bottom: 100px;
+}
+
+.timeline__wrapper__block__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &.middle {
+        margin: 0 auto;
+
+        & p {
+            font-size: 22px;
+            width: 100%;
+        }
+    }
+}
+
+.timeline__wrapper__block__content__title {
+    font-size: 32px;
+    margin-bottom: 50px;
+
+    &.middle {
+        margin: auto 0;
+        align-self: center;
+        justify-self: center;
+    }
+}
+
+.timeline__wrapper__block__content__description {
+    font-family: var(--font-family-secondary),sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 350px;
+}

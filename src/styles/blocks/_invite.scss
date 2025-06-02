@@ -1,0 +1,16 @@
+.invite__text {
+    text-align: center;
+    font-family: var(--font-family-secondary), sans-serif;
+    width: 60%;
+    margin: 0 auto 15px auto;
+
+    font-size: 20px;
+
+    &:last-child {
+        margin-top: 20px;
+    }
+}
+
+.invite__img {
+    margin: 0 auto;
+}

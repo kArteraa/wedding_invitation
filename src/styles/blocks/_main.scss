@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kurale&display=swap');
+
+:root {
+    --primary-color: #fefefe;
+    --secondary-color: rgb(231,231,231);
+    --extra-color: #2a2a2a;
+    --font-family-main: "Great Vibes", cursive;
+    --font-family-secondary: "Kurale", serif;
+}
+
+body , html {
+    background: var(--primary-color);
+    font-family: var(--font-family-main), serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.delimiter {
+    margin: 0 20px;
+
+    &-5 {
+        margin: 0 5px;
+    }
+
+    &-10 {
+        margin: 0 10px;
+    }
+}
+
+.img_box {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+
+}
+
+.img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+
+}

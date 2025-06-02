@@ -1,0 +1,22 @@
+.contact__icons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 50px;
+}
+
+.contact__text {
+    text-align: center;
+    font-family: var(--font-family-secondary), sans-serif;
+    width: 60%;
+    margin: 0 auto 15px auto;
+
+    font-size: 20px;
+}
+
+.contact__icon {
+    font-size: 32px;
+    color: var(--extra-color)
+}
