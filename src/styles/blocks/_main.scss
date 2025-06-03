@@ -19,6 +19,15 @@ body , html {
     max-width: 960px;
     width: 100%;
     margin: 0 auto;
+
+    @media screen and (max-width: 1000px) {
+        max-width: 720px;
+    }
+
+    @media screen and (max-width: 720px) {
+        font-size: 28px;
+        padding: 0 10px;
+    }
 }
 
 .delimiter {
@@ -35,8 +44,17 @@ body , html {
 
 .img_box {
     width: 100%;
-    max-width: 500px;
+    max-width: 320px;
     height: auto;
+
+    @media screen and (max-width: 1000px) {
+        max-width: 320px;
+    }
+
+    @media screen and (max-width: 1000px) {
+        max-width: 320px;
+    }
+
 
 }
 

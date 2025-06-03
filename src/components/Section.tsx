@@ -1,5 +1,6 @@
 import type {FC, ReactNode} from 'react';
 import cn from 'classnames';
+import {ScrollAnimation} from "./ScrollAnimation.tsx";
 
 interface SectionProps {
     title: string;
@@ -12,9 +13,12 @@ export const Section: FC<SectionProps> = ({title,children,bg}) => {
         <section className={cn("section",bg)}>
             <div className="container">
                 <div className="section__wrapper">
-                    <h1 className="section__title">{title}</h1>
+                    <ScrollAnimation direction="up" duration={1}>
+                        <h1 className="section__title">{title}</h1>
+
+                    </ScrollAnimation>
                     <div className="section__content">
-                        {children}
+                    {children}
                     </div>
                 </div>
             </div>

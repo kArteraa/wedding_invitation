@@ -11,17 +11,27 @@
 
 .intro__title {
     font-size: 36px;
+    
+
 }
 
 .intro__subtitle {
     font-size: 30px;
     font-family: var(--font-family-secondary), sans-serif;
+
+    @media screen and (max-width: 720px) {
+        font-size: 22px;
+    }
 }
 
 .intro__paragraph {
     margin-top: 100px;
 
     font-size: 72px;
+
+    @media screen and (max-width: 720px) {
+        font-size: 52px;
+    }
 }
 
 .intro__icon {

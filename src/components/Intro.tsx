@@ -4,6 +4,7 @@ import { GiLinkedRings } from 'react-icons/gi';
 import * as THREE from 'three';
 // @ts-ignore
 import BIRDS from 'vanta/dist/vanta.birds.min';
+import {ScrollAnimation} from "./ScrollAnimation.tsx";
 
 export const Intro: FC = () => {
     const [vantaEffect, setVantaEffect] = useState(null);
@@ -67,16 +68,25 @@ export const Intro: FC = () => {
                     padding: '1rem',
                 }}
             >
-                <h1 className="intro__title">
-                    08<span className="delimiter-5">.</span>08<span className="delimiter-5">.</span>2025
-                </h1>
-                <h2 className="intro__subtitle">
-                    Этот день навсегда останется в наших сердцах
-                </h2>
-                <p className="intro__paragraph">
-                    Артём <span className="delimiter">&</span> Татьяна
-                </p>
-                <GiLinkedRings className="intro__icon" />
+                <ScrollAnimation direction="up" duration={1}>
+                    <h1 className="intro__title">
+                        08<span className="delimiter-5">.</span>08<span className="delimiter-5">.</span>2025
+                    </h1>
+                </ScrollAnimation>
+
+                <ScrollAnimation direction="up" delay={0.1} duration={1} >
+                    <h2 className="intro__subtitle">
+                        Этот день навсегда останется в наших сердцах
+                    </h2>
+                </ScrollAnimation>
+                <ScrollAnimation direction="up" delay={0.2} duration={1}>
+                    <p className="intro__paragraph">
+                        Артём <span className="delimiter">&</span> Татьяна
+                    </p>
+                </ScrollAnimation>
+                <ScrollAnimation direction="up" delay={0.3} duration={1}>
+                    <GiLinkedRings className="intro__icon" />
+                </ScrollAnimation>
             </div>
         </section>
     );
