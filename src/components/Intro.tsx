@@ -81,7 +81,7 @@ export const Intro: FC = () => {
                 </ScrollAnimation>
                 <ScrollAnimation direction="up" delay={0.2} duration={1}>
                     <p className="intro__paragraph">
-                        Артём <span className="delimiter">&</span> Татьяна
+                        <span className="allura">A</span>ртём <span className="delimiter">&</span> Татьяна
                     </p>
                 </ScrollAnimation>
                 <ScrollAnimation direction="up" delay={0.3} duration={1}>
