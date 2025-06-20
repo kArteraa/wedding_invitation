@@ -20,7 +20,7 @@ export const Timeline: FC = () => {
                                     <p className="timeline__wrapper__block__content__description">ул. Мира, 125Б, Волжский.</p>
                                 </ScrollAnimation>
                                 <ScrollAnimation direction={"left"} delay={0.4}>
-                                    <p className="timeline__wrapper__block__content__description">Здесь мы будем ждать вас,
+                                    <p className="timeline__wrapper__block__content__description">Здесь мы будем ждать Вас,
                                     чтобы разделить этот важный момент вместе.</p>
                                 </ScrollAnimation>
                             </div>
@@ -55,7 +55,7 @@ export const Timeline: FC = () => {
                                 <p className="timeline__wrapper__block__content__description">Свободный стиль</p>
                             </ScrollAnimation>
                             <ScrollAnimation direction={"left"} delay={0.4}>
-                                <p className="timeline__wrapper__block__content__description">Главное — это ваше
+                                <p className="timeline__wrapper__block__content__description">Главное — это Ваше
                                     присутствие, а не наряд. Приходите в том, в чём вам комфортно и приятно!</p>
                             </ScrollAnimation>
 

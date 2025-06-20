@@ -7,7 +7,7 @@ export const InviteSection: FC = ({}) => {
     return (
         <Section title={"Дорогие родные и друзья"} bg={"primary"}>
             <ScrollAnimation direction="up" duration={3}>
-                <p className="invite__text">С огромной радостью и любовью мы приглашаем вас
+                <p className="invite__text">С огромной радостью и любовью мы приглашаем Вас
                     разделить с нами самый светлый и важный день нашей жизни — нашу свадьбу.</p>
             </ScrollAnimation>
             <ScrollAnimation direction="up" duration={1.5}>
