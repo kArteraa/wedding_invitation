@@ -34,7 +34,8 @@ export const Timeline: FC = () => {
 
                         <div className="timeline__wrapper__block__content">
                             <ScrollAnimation direction={"right"}>
-                                <h1 className="timeline__wrapper__block__content__title middle">Время сбора 14:30</h1>
+                                <h1 className="timeline__wrapper__block__content__title middle">Время сбора <br />08.08.2025 <span className="delimiter">в</span> 14:30
+                                </h1>
                             </ScrollAnimation>
                         </div>
                         <ScrollAnimation direction={"left"}>
