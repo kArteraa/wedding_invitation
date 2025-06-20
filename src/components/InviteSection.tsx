@@ -11,7 +11,7 @@ export const InviteSection: FC = ({}) => {
                     разделить с нами самый светлый и важный день нашей жизни — нашу свадьбу.</p>
             </ScrollAnimation>
             <ScrollAnimation direction="up" duration={1.5}>
-             <Img className="invite__img" src={"a.png"}/>
+                <Img className="invite__img" src={"4.jpg"}/>
             </ScrollAnimation>
             <ScrollAnimation direction="up" duration={1.5}>
                 <p className="invite__text"> Пусть этот день наполнится теплом, улыбками и незабываемыми моментами, которые

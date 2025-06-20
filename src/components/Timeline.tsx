@@ -10,7 +10,7 @@ export const Timeline: FC = () => {
                 <div className="timeline__wrapper">
                     <div className="timeline__wrapper__block">
                         <ScrollAnimation direction={"right"}>
-                            <Img src={"1.jpg"} className="timeline__wrapper__block__img"/>
+                            <Img src={"5.jpg"} className="timeline__wrapper__block__img"/>
                         </ScrollAnimation>
                             <div className="timeline__wrapper__block__content">
                                 <ScrollAnimation direction={"left"}>
@@ -39,12 +39,12 @@ export const Timeline: FC = () => {
                             </ScrollAnimation>
                         </div>
                         <ScrollAnimation direction={"left"}>
-                            <Img src={"3.jpg"} className="timeline__wrapper__block__img"/>
+                            <Img src={"6.jpg"} className="timeline__wrapper__block__img"/>
                         </ScrollAnimation>
                     </div>
                     <div className="timeline__wrapper__block">
                         <ScrollAnimation direction={"right"}>
-                            <Img src={"2.jpg"} className="timeline__wrapper__block__img remove_img"/>
+                            <Img src={"7.jpg"} className="timeline__wrapper__block__img remove_img"/>
                         </ScrollAnimation>
 
                         <div className="timeline__wrapper__block__content">

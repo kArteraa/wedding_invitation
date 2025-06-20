@@ -26,7 +26,7 @@ export const Intro: FC = () => {
                     backgroundColor: 0xfefefe,
                     color1: 0xb10000,
                     color2: 0x0,
-                    birdSize: 0.20,
+                    birdSize: 0.45,
                     wingSpan: 10.00,
                     speedLimit: 2.00,
                     separation: 85.00,
@@ -81,11 +81,11 @@ export const Intro: FC = () => {
                 </ScrollAnimation>
                 <ScrollAnimation direction="up" delay={0.2} duration={1}>
                     <p className="intro__paragraph">
-                        <span className="allura">A</span>ртём <span className="delimiter">&</span> Татьяна
+                        <span className="allura">A</span>ртем <span className="delimiter">&</span> Татьяна
                     </p>
                 </ScrollAnimation>
                 <ScrollAnimation direction="up" delay={0.3} duration={1}>
-                    <GiLinkedRings className="intro__icon" />
+                    <GiLinkedRings className="intro__icon" style={{color: "#d52929"}} />
                 </ScrollAnimation>
             </div>
         </section>
