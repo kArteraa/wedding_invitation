@@ -33,7 +33,10 @@ export const Timeline: FC = () => {
                                 <h1 className="timeline__wrapper__block__content__title">Место проведения</h1>
                             </ScrollAnimation>
                             <ScrollAnimation direction={"left"} delay={0.2}>
-                                <p className="timeline__wrapper__block__content__description">ул. Мира, 125Б,
+                                <p className="timeline__wrapper__block__content__description" style={{fontWeight:500,fontSize:24}}>Кафе Bahnhof</p>
+                            </ScrollAnimation>
+                            <ScrollAnimation direction={"left"} delay={0.2}>
+                                <p className="timeline__wrapper__block__content__description" >ул. Мира, 125Б,
                                     Волжский.</p>
                             </ScrollAnimation>
                             <ScrollAnimation direction={"left"} delay={0.4}>
